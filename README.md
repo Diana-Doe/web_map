@@ -17,7 +17,8 @@ This program require a few python libraries:
 #
 Also, you need to download the dataset with movie. 
 ####
-***HTML***
+**HTML**
+####
 An HTML 4 document is composed of three parts:
 
 >a line containing HTML version information
