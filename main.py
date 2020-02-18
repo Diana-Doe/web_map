@@ -90,6 +90,18 @@ def map(loc,user_loc):
         for n in loc[i][0]:
             movie += '"' + n + '",' + '\n'
         m.add_child(folium.Marker(location=list(i), popup = movie + '\n' + loc[i][1], icon = folium.Icon(color="red")))
+    # locationDrive = [33.567309999999964, -118.54222999999996]
+    # locationLaLaLand = [34.2193883184503, -118.62327726954592]
+    # locationBlade = [34, -118]
+    # iconDrive= folium.features.CustomIcon('Drive.png', icon_size=(100,100))
+    # iconLaLaLand = folium.features.CustomIcon('LaLaLand.png', icon_size=(100,100))
+    # iconBlade = folium.features.CustomIcon('Blade.png', icon_size=(100,100))
+    # popupDrive = "<strong>Drive</strong><br>Staring:Ryan Gosling<br>year: 2011<br>Rate:7.8"
+    # popupBlade = "<strong>Blade Runner 2049</strong><br>Staring:Ryan Gosling<br>year: 2017<br>Rate:8"
+    # popupLaLaLand = "<strong>La La Land</strong><br>Staring:Ryan Gosling<br>year: 2016<br>Rate:8"
+    # folium.Marker(locationDrive,tooltip = "Drive", popup=popupDrive,icon = iconDrive).add_to(m)
+    # folium.Marker(locationBlade,tooltip = "Blade Runner 2049", popup=popupBlade,icon = iconBlade).add_to(m)
+    # folium.Marker(locationLaLaLand,tooltip = "La La Land", popup=popupLaLaLand,icon = iconLaLaLand).add_to(m)
     m.save('index.html')
  
   
