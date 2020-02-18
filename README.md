@@ -29,3 +29,4 @@ Loading formatted geocoded file...
 Map is generating
 ####
 Map is ready
+https://github.com/Diana-Doe/web_map/issues/1#issue-567117247
