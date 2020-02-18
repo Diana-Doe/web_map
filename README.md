@@ -7,8 +7,12 @@ which were filmed near users location. Then it uses folium to create an HTML fil
 of movies places and user place. Also, it contains mini-map and roads and shows the distance between user and movie locations. 
 ####
 This program require a few python libraries:
+#
 pip install geopy
+#
 pip install folium
+#
 pip install reverse_geocoder
+#
 Also, you need to download the dataset with movie. 
 ####
