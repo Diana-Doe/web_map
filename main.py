@@ -45,7 +45,6 @@ def read_file(file,year,user_loc):
                     break
                 if location not in dic:
                     dic[location] = set()
-                print(movie)
                 dic[location].add(movie)
         return dic
                 
