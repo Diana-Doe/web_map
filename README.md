@@ -16,3 +16,16 @@ pip install reverse_geocoder
 #
 Also, you need to download the dataset with movie. 
 ####
+Example
+####
+Please enter a year you would like to have a map for: 2011
+####
+Please enter your location (format: lat, long): 34,-118
+####
+Please wait...
+####
+Loading formatted geocoded file...
+####
+Map is generating
+####
+Map is ready
