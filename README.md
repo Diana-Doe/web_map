@@ -17,6 +17,15 @@ This program require a few python libraries:
 #
 Also, you need to download the dataset with movie. 
 ####
+***HTML***
+An HTML 4 document is composed of three parts:
+
+>a line containing HTML version information
+#
+>a declarative header section (delimited by the HEAD element)
+#
+>a body, which contains the document's actual content. The body may be implemented by the BODY element or the FRAMESET element.
+####
 __Example__
 ####
 Please enter a year you would like to have a map for: 2011
