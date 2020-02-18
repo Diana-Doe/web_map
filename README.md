@@ -1,6 +1,7 @@
 # web_map
 Lab№2.2 
-#**𝕎𝕖𝕓𝕄𝕒𝕡𝟙.𝟚**
+#
+**𝕎𝕖𝕓𝕄𝕒𝕡𝟙.𝟚**
 ####
 This program uses the dataset with movies, their locations and years of their release and finds movies 
 which were filmed near users location. Then it uses folium to create an HTML file with a map with icons 
@@ -16,7 +17,7 @@ This program require a few python libraries:
 #
 Also, you need to download the dataset with movie. 
 ####
-Example
+__Example__
 ####
 Please enter a year you would like to have a map for: 2011
 ####
