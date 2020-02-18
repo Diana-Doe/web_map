@@ -90,7 +90,7 @@ def map(loc,user_loc):
         for n in loc[i][0]:
             movie += '"' + n + '",' + '\n'
         m.add_child(folium.Marker(location=list(i), popup = movie + '\n' + loc[i][1], icon = folium.Icon(color="red")))
-    # locationDrive = [33.567309999999964, -119.94222999999996]
+    # locationDrive = [33.567309999999964, -117.94222999999996]
     # locationLaLaLand = [34.2193883184503, -118.62327726954592]
     # locationBlade = [34, -118]
     # iconDrive= folium.features.CustomIcon('Drive.png', icon_size=(100,100))
