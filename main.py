@@ -89,12 +89,16 @@ def map(loc,user_loc):
     for i in loc:
         movie = ''
         for n in loc[i][0]:
-            movie += '"' + n + '"' + '\n'
+            movie += '"' + n + '",' + '\n'
         m.add_child(folium.Marker(location=list(i), popup = movie + '\n' + loc[i][1], icon = folium.Icon(color="red")))
     m.save('index.html')
  
   
 def user(user_loc): 
+    """
+    tuple -> str,str
+    Take user location and return 2 possible cities(states) of his coordanates
+    """
     result = rg.search(user_loc) 
     result1 = result[0]['admin1']
     result2 = result[0]['admin2']
